@@ -1,4 +1,4 @@
-# 01_Zivotopis
+Domácí úkol 1: ŽIVOTOPIS
 
 Povinné části stránky:
 - vlož vlastní fotku
