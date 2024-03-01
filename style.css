@@ -169,36 +169,3 @@ footer a{
 footer a:hover{
     color: rgb(243, 243, 243);
 }
-
-
-
-
-/* tabulková verze životopisu */
-
-/*table{
-    width: 100%;
-    text-align: left;
-    margin-left: 200px;
-    display: block;
-}
-
-.foto{
-    width: 35%;
-}
-
-.foto img{
-    width: 500px;
-    border-radius: 300px;
-    padding: 50px;
-}
-
-.jmeno{
-    font-size: 55px;
-}
-
-.kontakt img{
-    width: 40px;
-    padding-right: 25px;
-}
-
-
