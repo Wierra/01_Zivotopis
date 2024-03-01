@@ -75,6 +75,10 @@ nav ul li a:hover{
     padding-top: 50px;
 }
 
+.place a{
+    color: rgb(66, 64, 64);
+}
+
 ul{
     padding-left: 100px;
 }
@@ -82,7 +86,7 @@ ul{
 .zkušenosti{
     padding-top: 40px;
     padding-left: 250px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     text-align: left;
 }
 
@@ -95,13 +99,41 @@ ul{
     background-color: rgb(230, 230, 230);
 }
 
+.jazyk{
+    padding-top: 40px;
+    padding-left: 250px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+table{
+    width: 40%;
+}
+
+table th{
+    background-color: rgb(185, 184, 184);
+    text-align: center;
+}
+
+table td{
+    padding-left: 10px;
+}
+
 .dovednosti{
     padding-top: 40px;
     padding-left: 250px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+    padding-right: 250px;
     text-align: left;
-    padding-right: 100px;
+    background-color: rgb(230, 230, 230);
+}
 
+.zájmy{
+    padding-top: 40px;
+    padding-left: 250px;
+    padding-bottom: 50px;
+    padding-right: 250px;
+    text-align: left;
 }
 
 .scroll{
@@ -120,6 +152,10 @@ footer{
     border-top: 10px solid gray;
 }
 
+footer a{
+    text-decoration: none;
+    color:rgb(60, 60, 60)
+}
 
 
 
