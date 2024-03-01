@@ -32,7 +32,7 @@ h3{
 /* jednostránkový web */
 header{
     width: 100%;
-    height: 800px;
+    height: 770px;
     background-color: rgb(197, 196, 196);
     border-bottom: 10px solid gray;
 }
@@ -40,7 +40,8 @@ header{
 .foto img{
     width: 600px;
     border-radius: 300px;
-    padding: 100px;
+    border-left: 10px solid gray;
+    padding: 80px;
     float: left;
     display: flex;
 }
@@ -63,7 +64,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:rgb(227, 224, 224);
+    color:rgb(243, 243, 243);
 }
 
 .place img{
@@ -77,6 +78,10 @@ nav ul li a:hover{
 
 .place a{
     color: rgb(66, 64, 64);
+}
+
+.place a:hover{
+    color:rgb(243, 243, 243);
 }
 
 ul{
@@ -99,19 +104,23 @@ ul{
     background-color: rgb(230, 230, 230);
 }
 
-.jazyk{
+.jazyky{
     padding-top: 40px;
     padding-left: 250px;
-    padding-bottom: 50px;
     text-align: left;
 }
 
 table{
     width: 40%;
+    padding-bottom: 70px;
 }
 
 table th{
     background-color: rgb(185, 184, 184);
+    text-align: center;
+}
+
+.sloupec{
     text-align: center;
 }
 
@@ -155,6 +164,10 @@ footer{
 footer a{
     text-decoration: none;
     color:rgb(60, 60, 60)
+}
+
+footer a:hover{
+    color: rgb(243, 243, 243);
 }
 
 
