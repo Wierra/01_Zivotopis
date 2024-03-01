@@ -9,9 +9,10 @@
 }
 
 body{
-    font-family: "Marhey";
+    font-family: "Marhey", sans-serif;
     font-size: 26px;
     color: rgb(60,60,60);
+    line-height: 1.5;
 }
 
 h1{
@@ -89,14 +90,18 @@ ul{
 }
 
 .zkušenosti{
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 250px;
     padding-bottom: 50px;
     text-align: left;
 }
 
+.firma{
+    font-style: italic;
+}
+
 .vzdělání{
-    padding-top: 50px;
+    padding-top: 60px;
     padding-left: 250px;
     padding-bottom: 50px;
     padding-right: 100px;
@@ -105,7 +110,7 @@ ul{
 }
 
 .jazyky{
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 250px;
     text-align: left;
 }
@@ -129,7 +134,7 @@ table td{
 }
 
 .dovednosti{
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 250px;
     padding-bottom: 50px;
     padding-right: 250px;
@@ -138,19 +143,11 @@ table td{
 }
 
 .zájmy{
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 250px;
     padding-bottom: 50px;
     padding-right: 250px;
     text-align: left;
-}
-
-.scroll{
-    position: inherit;
-    color: gray;
-    border: 2px solid black; 
-    border-radius: 100%;
-    padding: 10px;
 }
 
 footer{
