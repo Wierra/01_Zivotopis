@@ -92,7 +92,9 @@ nav ul li a:hover{
     color: rgb(66, 64, 64);
 }
 
-.place a:hover{
+.place a:hover,
+.place a:focus,
+.place a:active{
     color:rgb(243, 243, 243);
 }
 
