@@ -13,3 +13,5 @@ Nastylování stránky:
 - v CSS napiš nějaký základní styl podle toho, jak moc toho z CSS umíš - nastav alespoň písmo, nějakou barvu (pozadí stránky, nadpisy, apod.),
 - pro rozestup mezi prvky použij margin,
 - pokud se to hodí, přidej na části obsahu rámeček a nastav padding, aby nebyl obsah natěsnaný přímo na něj.
+
+Vypracováno a odevzdáno: 3.3.2024
