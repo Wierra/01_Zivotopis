@@ -16,41 +16,52 @@ body{
 }
 
 h1{
-    font-size: 90px;
-    padding-top: 90px;
-    padding-bottom: 35px;
+    font-size: 250%;
+    margin: 90px 0 35px 0;
     color: rgb(60, 60, 60);
 }
 
 h2{
-    font-size: 70px;
+    font-size: 250%;
+    margin: 50px 13% 50px 0;
 }
 
 h3{
-    font-size: 40px;
+    font-size: 150%; 
+    margin-bottom: 10px;
+}
+
+h4{
+    margin-bottom: 10px;
+    font-weight: 500;
 }
 
 /* jednostránkový web */
 header{
     width: 100%;
-    height: 770px;
+    height: 800px;
     background-color: rgb(197, 196, 196);
     border-bottom: 10px solid gray;
 }
 
 .foto img{
-    width: 600px;
+    width: 30%;
     border-radius: 300px;
-    border-left: 10px solid gray;
-    padding: 80px;
+    border-left: 10px double gray;
+    margin: 70px;
     float: left;
     display: flex;
+    padding: 50px;
+}
+
+.narozeni{
+    font-size: 36px;
 }
 
 nav ul{
     list-style: none;
-    padding-top: 40px;
-    text-align: right;
+    padding: 40px 2% 0 0;
+    text-align: right; 
 }
 
 nav ul li{
@@ -70,11 +81,11 @@ nav ul li a:hover{
 
 .place img{
     width: 40px;
-    padding-right: 25px;
+    margin-right: 25px;
 }
 
 .place{
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .place a{
@@ -86,43 +97,40 @@ nav ul li a:hover{
 }
 
 ul{
-    padding-left: 100px;
+    margin-left: 100px;
 }
 
 .zkušenosti{
-    padding-top: 60px;
-    padding-left: 250px;
-    padding-bottom: 50px;
+    margin: 70px 15% 70px 13%;
     text-align: left;
 }
 
-.firma{
-    font-style: italic;
+.rok{
+    font-size: 30px;
+    margin-top: 20px;
 }
 
 .vzdělání{
-    padding-top: 60px;
-    padding-left: 250px;
-    padding-bottom: 50px;
-    padding-right: 100px;
+    padding: 70px 15% 70px 13%;
     text-align: left;
     background-color: rgb(230, 230, 230);
 }
 
 .jazyky{
-    padding-top: 60px;
-    padding-left: 250px;
+    margin: 70px 15% 0px 13%;
     text-align: left;
 }
 
 table{
-    width: 40%;
+    width: 50%;
     padding-bottom: 70px;
+    line-height: 2;
 }
 
 table th{
     background-color: rgb(185, 184, 184);
     text-align: center;
+    padding: 10px;
 }
 
 .sloupec{
@@ -134,19 +142,13 @@ table td{
 }
 
 .dovednosti{
-    padding-top: 60px;
-    padding-left: 250px;
-    padding-bottom: 50px;
-    padding-right: 250px;
+    padding: 70px 15% 70px 13%;
     text-align: left;
     background-color: rgb(230, 230, 230);
 }
 
 .zájmy{
-    padding-top: 60px;
-    padding-left: 250px;
-    padding-bottom: 50px;
-    padding-right: 250px;
+    margin: 70px 15% 70px 13%;
     text-align: left;
 }
 
@@ -160,7 +162,7 @@ footer{
 
 footer a{
     text-decoration: none;
-    color:rgb(60, 60, 60)
+    color:rgb(60, 60, 60);
 }
 
 footer a:hover{
