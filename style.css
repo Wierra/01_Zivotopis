@@ -90,6 +90,7 @@ nav ul li a:hover{
 
 .place a{
     color: rgb(66, 64, 64);
+    text-decoration: none;
 }
 
 .place a:hover,
